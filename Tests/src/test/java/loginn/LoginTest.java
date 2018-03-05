@@ -12,7 +12,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 
-public class Login{
+public class LoginTest{
 	WebDriver driver;
   @Test(priority=0)
   public void f() throws InterruptedException {

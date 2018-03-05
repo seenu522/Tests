@@ -5,7 +5,7 @@ import java.io.IOException;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
-public class Job extends Login{
+public class JobTest extends LoginTest{
   @Test(priority=1)
   public void f1() throws IOException, InterruptedException {
 	  driver.findElement(By.xpath("//b[text()='Admin']")).click();

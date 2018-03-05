@@ -3,7 +3,7 @@ package loginn;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
-public class PayScale extends Login{
+public class PayScaleTest extends LoginTest{
   @Test(priority=3)
   public void f1() throws InterruptedException {
 	  driver.findElement(By.xpath("//b[text()='Admin']")).click();

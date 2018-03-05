@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
-public class Demo extends Login{
+public class DemoTest extends LoginTest{
   @Test(priority=1)
   public void f5() throws InterruptedException 
   {
