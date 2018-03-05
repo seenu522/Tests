@@ -23,8 +23,8 @@ public class LoginTest{
 	  driver.findElement(By.xpath("//input[@id='txtUsername']")).sendKeys("Admin");
 	  driver.findElement(By.xpath("//input[@id='txtPassword']")).sendKeys("admin");
 	  driver.findElement(By.xpath("//input[@id='btnLogin']")).click();
-	  Thread.sleep(4000);
-	  driver.quit();
+//	  Thread.sleep(4000);
+//	  driver.quit();
  }
  
 }
