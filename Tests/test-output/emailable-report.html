@@ -8,12 +8,44 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">15,983</td><td></td><td></td></tr>
+<tr><th colspan="7">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">8</td><td class="num">0</td><td class="num attn">2</td><td class="num">425,874</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">loginn.Keyboard</td><td><a href="#m0">f</a></td><td rowspan="1">1520242215131</td><td rowspan="1">13334</td></tr><tr class="passedeven"><td><a href="#m1">f1</a></td><td rowspan="1">1520242228474</td><td rowspan="1">2600</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">loginn.JobTest</td><td><a href="#m0">f1</a></td><td rowspan="1">1520249330018</td><td rowspan="1">8</td></tr><tr class="failedodd"><td rowspan="1">loginn.UserTest</td><td><a href="#m1">f1</a></td><td rowspan="1">1520249330074</td><td rowspan="1">9</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">loginn.Demo1Test</td><td><a href="#m2">f</a></td><td rowspan="1">1520248990603</td><td rowspan="1">316884</td></tr><tr class="passedodd"><td rowspan="1">loginn.Demo2Test</td><td><a href="#m3">f</a></td><td rowspan="1">1520249307523</td><td rowspan="1">22463</td></tr><tr class="passedeven"><td rowspan="1">loginn.DemoTest</td><td><a href="#m4">f</a></td><td rowspan="1">1520248977126</td><td rowspan="1">13439</td></tr><tr class="passedodd"><td rowspan="1">loginn.JobTest</td><td><a href="#m5">f</a></td><td rowspan="1">1520248904268</td><td rowspan="1">15713</td></tr><tr class="passedeven"><td rowspan="1">loginn.LoginTest</td><td><a href="#m6">f</a></td><td rowspan="1">1520248963732</td><td rowspan="1">13378</td></tr><tr class="passedodd"><td rowspan="1">loginn.PayScaleTest</td><td><a href="#m7">f</a></td><td rowspan="1">1520248935791</td><td rowspan="1">13414</td></tr><tr class="passedeven"><td rowspan="1">loginn.RecruitmentTest</td><td><a href="#m8">f</a></td><td rowspan="1">1520248949221</td><td rowspan="1">14485</td></tr><tr class="passedodd"><td rowspan="1">loginn.UserTest</td><td><a href="#m9">f</a></td><td rowspan="1">1520248920085</td><td rowspan="1">15670</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">loginn.Keyboard#f</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">loginn.Keyboard#f1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">loginn.JobTest#f1</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;
+System info: host: &apos;USER-PC&apos;, ip: &apos;192.168.0.131&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_162&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:127)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at loginn.JobTest.f1(JobTest.java:11)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">loginn.UserTest#f1</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;
+System info: host: &apos;USER-PC&apos;, ip: &apos;192.168.0.131&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_162&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:127)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at loginn.UserTest.f1(UserTest.java:16)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">loginn.Demo1Test#f</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">loginn.Demo2Test#f</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">loginn.DemoTest#f</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">loginn.JobTest#f</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">loginn.LoginTest#f</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">loginn.PayScaleTest#f</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">loginn.RecruitmentTest#f</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">loginn.UserTest#f</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
