@@ -26,5 +26,7 @@ public class Demo1 {
 	  Runtime.getRuntime().exec("C:\\Users\\User\\Desktop\\sami.exe");
 	  Thread.sleep(300000);
 	  //driver.findElement(By.xpath("//button[@class='primary-btn']")).click();
+	  Thread.sleep(4000);
+	  driver.quit();
   }
 }

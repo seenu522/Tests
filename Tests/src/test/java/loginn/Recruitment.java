@@ -37,6 +37,7 @@ public class Recruitment extends Login {
 		  catch(Exception e) {
 			  
 		  }
-		  		  
+		  Thread.sleep(4000);
+		  driver.quit();	  
 	  }
 }

@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class PayScale extends Login{
   @Test(priority=3)
-  public void f1() {
+  public void f1() throws InterruptedException {
 	  driver.findElement(By.xpath("//b[text()='Admin']")).click();
 	  driver.findElement(By.xpath("//a[text()='Job']")).click();
 	  driver.findElement(By.xpath("//a[@id='menu_admin_viewPayGrades']")).click();
@@ -16,5 +16,7 @@ public class PayScale extends Login{
 	  driver.findElement(By.xpath("//input[@id='payGradeCurrency_minSalary']")).sendKeys("25000");
 	  driver.findElement(By.xpath("//input[@id='payGradeCurrency_maxSalary']")).sendKeys("40000");
 	  driver.findElement(By.xpath("//input[@id='btnSaveCurrency']")).click();
+	  Thread.sleep(4000);
+	  driver.quit();
   }
 }

@@ -11,7 +11,7 @@ public class User extends Login
 {
 	
   @Test(priority=1)
-  public void f1() 
+  public void f1() throws InterruptedException 
   {
 	  driver.findElement(By.xpath("//b[text()='Admin']")).click();
 	  driver.findElement(By.xpath("//input[@id='btnAdd']")).click();
@@ -24,5 +24,7 @@ public class User extends Login
 	  driver.findElement(By.xpath("//input[@id='systemUser_confirmPassword']")).sendKeys("123456");
 	  
 	  driver.findElement(By.xpath("//input[@id='btnSave']")).click();
+	  Thread.sleep(4000);
+	  driver.quit();
   }
 }

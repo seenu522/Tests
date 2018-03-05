@@ -15,7 +15,7 @@ import org.testng.annotations.BeforeMethod;
 public class Login{
 	WebDriver driver;
   @Test(priority=0)
-  public void f() {
+  public void f() throws InterruptedException {
 	  System.setProperty("webdriver.chrome.driver", "D:\\chromedriver.exe");
 	  driver=new ChromeDriver();
 	  driver.manage().window().maximize();
@@ -23,7 +23,8 @@ public class Login{
 	  driver.findElement(By.xpath("//input[@id='txtUsername']")).sendKeys("Admin");
 	  driver.findElement(By.xpath("//input[@id='txtPassword']")).sendKeys("admin");
 	  driver.findElement(By.xpath("//input[@id='btnLogin']")).click();
-	  
+	  Thread.sleep(4000);
+	  driver.quit();
  }
  
 }

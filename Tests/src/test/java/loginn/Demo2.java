@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 public class Demo2 {
   @Test
-  public void f() throws IOException {
+  public void f() throws IOException, InterruptedException {
 	  System.setProperty("webdriver.chrome.driver", "D:\\chromedriver.exe");
 	  WebDriver driver=new ChromeDriver();
 	  driver.manage().window().maximize();
@@ -18,6 +18,7 @@ public class Demo2 {
 	  driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
 	  driver.findElement(By.xpath("//input[@id='clientUpload']")).click();
 	  Runtime.getRuntime().exec("C:\\Users\\User\\Desktop\\ss.exe");
-	  
+	  Thread.sleep(4000);
+	  driver.quit();
   }
 }
