@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
 	public class PayScalesTest extends LoginpageTest{
-	  @Test(priority=1)
+	  @Test(priority=1,enabled=false)
 	  public void f1() throws InterruptedException {
 		  driver.findElement(By.xpath("//b[text()='Admin']")).click();
 		  driver.findElement(By.xpath("//a[text()='Job']")).click();
