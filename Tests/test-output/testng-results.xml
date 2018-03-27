@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22423" started-at="2018-03-05T11:55:35Z" finished-at="2018-03-05T11:55:57Z">
+  <suite name="Default suite" duration-ms="20500" started-at="2018-03-23T09:19:09Z" finished-at="2018-03-23T09:19:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22423" started-at="2018-03-05T11:55:35Z" finished-at="2018-03-05T11:55:57Z">
-      <class name="loginn.PayScaleTest">
-        <test-method status="PASS" signature="f()[pri:0, instance:loginn.PayScaleTest@14acaea5]" name="f" duration-ms="10957" started-at="2018-03-05T11:55:35Z" finished-at="2018-03-05T11:55:46Z">
+    <test name="Default test" duration-ms="20500" started-at="2018-03-23T09:19:09Z" finished-at="2018-03-23T09:19:29Z">
+      <class name="loginn.DemoTest">
+        <test-method status="PASS" signature="f()[pri:0, instance:loginn.DemoTest@3ffc5af1]" name="f" duration-ms="11765" started-at="2018-03-23T09:19:09Z" finished-at="2018-03-23T09:19:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="f1()[pri:1, instance:loginn.PayScaleTest@14acaea5]" name="f1" duration-ms="11395" started-at="2018-03-05T11:55:46Z" finished-at="2018-03-05T11:55:57Z">
+        <test-method status="PASS" signature="f5()[pri:1, instance:loginn.DemoTest@3ffc5af1]" name="f5" duration-ms="8589" started-at="2018-03-23T09:19:21Z" finished-at="2018-03-23T09:19:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f1 -->
-      </class> <!-- loginn.PayScaleTest -->
+        </test-method> <!-- f5 -->
+      </class> <!-- loginn.DemoTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

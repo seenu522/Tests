@@ -5,8 +5,8 @@ import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
 	public class PayScalesTest extends LoginpageTest{
-	  @Test(priority=1,enabled=false)
-	  public void f1() throws InterruptedException {
+	  @Test(priority=1)
+	  public void f2() throws InterruptedException {
 		  driver.findElement(By.xpath("//b[text()='Admin']")).click();
 		  driver.findElement(By.xpath("//a[text()='Job']")).click();
 		  driver.findElement(By.xpath("//a[@id='menu_admin_viewPayGrades']")).click();

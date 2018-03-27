@@ -1,15 +1,19 @@
 package demo;
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
-import demo.LoginpageTest;
 
-public class JobTitleTest extends LoginpageTest {
-	@Test(priority=1,enabled=false)
-	  public void f1() throws IOException, InterruptedException {
-		  driver.findElement(By.xpath("//b[text()='Admin']")).click();
+
+public class JobTitleTest extends LoginpageTest{
+   WebDriver driver;
+	@Test(priority=2,enabled=true)
+	  public void g(){
+		
+		  driver.findElement(By.xpath(".//*[@id='menu_admin_viewAdminModule']")).click();
 		  driver.findElement(By.xpath("//a[text()='Job']")).click();
 		  driver.findElement(By.xpath("//a[@id='menu_admin_viewJobTitleList']")).click();
 		  driver.findElement(By.xpath("//input[@id='btnAdd']")).click();
@@ -18,7 +22,6 @@ public class JobTitleTest extends LoginpageTest {
 		  driver.findElement(By.xpath("//input[@id='jobTitle_jobSpec']")).click();
 		  //Runtime.getRuntime().exec("C:\\Users\\User\\Desktop\\s.exe");
 		  driver.findElement(By.xpath("//input[@id='btnSave']")).click();
-		  Thread.sleep(4000);
-		  driver.quit();
+		  
 }
 }
